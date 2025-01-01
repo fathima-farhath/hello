@@ -22,8 +22,8 @@ jobs:
               run: npm run build
             - name: npm task to run unit tests
               run: npm run test
-            # - name: npm start task
-            #   run: npm run start
+            - name: npm start task
+              run: npm run start
 
               
               
