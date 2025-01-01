@@ -18,8 +18,8 @@ jobs:
               run: npm install
             - name: Install Dependencies
               run: npm ci
-            # - name: npm task to build
-            #   run: npm run build
+            - name: npm task to build
+              run: npm run build
             - name: npm task to run unit tests
               run: npm run test
             # - name: npm start task
