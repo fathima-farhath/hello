@@ -1,7 +1,5 @@
 name: 05 - 1 - Event Filters and Activity Types
 on:
-    push: 
-        main
     pull_request:
         types: [opened, synchronize]
         branches: main
