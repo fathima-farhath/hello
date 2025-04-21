@@ -16,6 +16,8 @@ jobs:
                     - node-version: 21.x
                       os: ubuntu-latest 
                       tag: experimental
+                exclude:
+                    - opacity: 75
         
         steps:
             - name: Setup Node
